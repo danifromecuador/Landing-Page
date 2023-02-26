@@ -2,14 +2,181 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
-  width: 480px;
+  /* width: 1024px; */
   height: auto;
-  background-color: #1f2937;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER ///////////////////////////////////////////////// */
+
 header {
+  /* height: 100%; */
+  background-color: #1f2937;
+  padding: 15px 100px 0 100px;
+}
+
+.header {
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+  flex-grow: 1;
+}
+.header-link-number {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 50px 0 80px 0;
+}
+.greeting {
+  color: #e5e7eb;
+  font-size: 18px;
+  width: 50%;
+  padding-right: 20px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.awesome {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.greeting p {
+  padding: 10px 0;
+}
+.sign-up-button {
   color: white;
+  font-weight: bold;
+  background-color: #3882f6;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+img {
+  width: 50%;
+  background-color: gray;
+}
+
+
+/* CARDS ////////////////////////////////////////////////// */
+
+.cards {
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tittle {
+  padding: 50px 0;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.four-cards {
+  display: flex;
+  column-gap: 20px;
+  padding-bottom: 80px;
+}
+.card {
+  width:150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.square {
+  width: 100%;
+  height: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+.caption {
+  text-align: center;
+  padding-top: 8px;
+  color: gray;
+}
+
+
+/* MESSAGE //////////////////////////////////////////////// */
+
+.message {
+  background-color: #e5e7eb;
+  padding: 100px 180px;
+}
+.text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+
+}
+.signature {
+  text-align: end;
+  font-weight: bolder;
+}
+
+
+/* SIGN-UP //////////////////////////////////////////////// */
+
+.sign-up {
+  padding: 80px 100px;
+}
+.blue {
+  padding: 30px 80px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+.left {
+  width: 70%;
+  padding-right: 20px;
+}
+.call {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.click-to-sign {
+  font-size: 12px;
+  font-weight: lighter;
+}
+.right .sign-up-button {
+  border: 1px solid #f9faf8;
+}
+
+
+ /* FOOTER ////////////////////////////////////////////////  */
+footer {
+  background-color: #1f2937;
+}
+.copyright {
+  color: #f9faf8;
+  font-weight: lighter;
+  text-align: center;
+  padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1080px) {
+  body {
+    width: 1080px;
+  }
 }
