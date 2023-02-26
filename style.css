@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 body {
@@ -37,7 +37,7 @@ header {
 }
 .hero {
   display: flex;
-  padding: 50px 0;
+  padding: 50px 0 80px 0;
 }
 .greeting {
   color: #e5e7eb;
@@ -70,13 +70,41 @@ img {
 
 
 /* CARDS ////////////////////////////////////////////////// */
-/*
-.cards {}
-.tittle {}
-.four-cards {}
-.card {}
-.square {}
-.caption {}
+
+.cards {
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tittle {
+  padding: 50px 0;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.four-cards {
+  display: flex;
+  column-gap: 20px;
+  padding-bottom: 80px;
+
+}
+.card {
+  width:150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.square {
+  width: 100%;
+  height: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+.caption {
+  text-align: center;
+  padding-top: 8px;
+}
 
 
 /* MESSAGE //////////////////////////////////////////////// */
