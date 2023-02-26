@@ -103,6 +103,7 @@ img {
 .caption {
   text-align: center;
   padding-top: 8px;
+  color: gray;
 }
 
 
@@ -126,14 +127,33 @@ img {
 
 
 /* SIGN-UP //////////////////////////////////////////////// */
-/*
-.sign-up {}
-.blue {}
-.left {}
-.call {}
-.click-to-sign {}
-.right {}
-.right .sign-up {}
+
+.sign-up {
+  padding: 80px 100px;
+}
+.blue {
+  padding: 30px 80px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+.left {
+  width: 70%;
+}
+.call {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.click-to-sign {
+  font-size: 12px;
+  font-weight: lighter;
+}
+.right .sign-up-button {
+  border: 1px solid #f9faf8;
+}
 
 
  /* FOOTER ////////////////////////////////////////////////  */
