@@ -24,7 +24,7 @@ header {
   color: #e5e7eb;
   display: flex;
   justify-content: space-between;
-  column-gap: 10px;
+  column-gap: 20px;
 }
 .header-logo {
   color: #f9faf8;
@@ -37,6 +37,7 @@ header {
 }
 .hero {
   display: flex;
+  align-items: center;
   padding: 50px 0 80px 0;
 }
 .greeting {
