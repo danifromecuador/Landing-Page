@@ -7,9 +7,50 @@
 body {
   width: 480px;
   height: auto;
-  background-color: #1f2937;
 }
 
+/* HEADER ///////////////////////////////////////////////// */
+/*
 header {
-  color: white;
 }
+
+.header {}
+.header-logo {}
+.header-link-number {}
+.hero {}
+.greeting {}
+.awesome {}
+.sign-up {}
+img {}
+
+
+/* CARDS ////////////////////////////////////////////////// */
+/*
+.cards {}
+.tittle {}
+.four-cards {}
+.card {}
+.square {}
+.caption {}
+
+
+/* MESSAGE //////////////////////////////////////////////// */
+/*
+.text {}
+.signature {}
+
+
+/* SIGN-UP //////////////////////////////////////////////// */
+/*
+.sign-up {}
+.blue {}
+.left {}
+.call {}
+.click-to-sign {}
+.right {}
+.right .sign-up {}
+
+
+ /* FOOTER ////////////////////////////////////////////////  */
+/*
+.copyright {}
