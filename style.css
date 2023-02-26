@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 480px;
+  height: auto;
+  background-color: #1f2937;
+}
+
+header {
+  color: white;
+}
