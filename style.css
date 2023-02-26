@@ -9,3 +9,7 @@ body {
   height: auto;
   background-color: #1f2937;
 }
+
+header {
+  color: white;
+}
